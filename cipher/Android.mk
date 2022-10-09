@@ -39,8 +39,8 @@ LOCAL_C_INCLUDES := \
 
 LOCAL_CFLAGS := \
         -DHAVE_CONFIG_H \
-        -DGNUPG_LIBDIR="\"/sbin\"" \
-        -Wno-error=pointer-bool-conversion
+        -DGNUPG_LIBDIR="\"/sbin\"" 
+       # -Wno-error=pointer-bool-conversion
 
 
 LOCAL_MODULE_TAGS := optional
